@@ -1,0 +1,252 @@
+html{
+	font-size: 16px;
+}
+
+body{
+	background: #B52513;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	text-align: center;
+}
+
+header{
+	background: #C2311E;
+	background-image: url("../images/Webflix.jpg");
+	background-position: 0.1% 100%;
+	background-repeat: repeat-x;
+	background-size: 22em;
+	box-shadow: 0 2px 2px black;
+	height: 9.5em;
+	margin: 0;
+	padding-top: 0.5em;
+	width: 100%;
+}
+
+header h1{
+	background: rgb(183,35,16);
+	border-radius: 1em;
+	font-size: 3em;
+	letter-spacing: 0.3em;
+	margin: 0 10% 0 15%;
+	text-shadow: 2px 2px 2px black;
+	width: 70%;
+}
+
+header h2{
+	background: rgb(183,35,16);
+	font-size: 1.1em;
+	text-shadow: 2px 2px 2px black;
+}
+
+nav{
+	display: inline-block;
+	height: 20em;
+	vertical-align: top;
+	width: 15%;
+}
+
+nav ul{
+	margin: 1em 0;
+	padding: 0;
+	width: 83%;
+}
+
+ul li{
+	background: #D74F39;
+	border-radius: 0.5em;
+	box-shadow: 2px 2px 2px black;
+	list-style: none;
+	margin: 0.5em 0;
+	width: 100%;
+}
+
+ul li a{
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	height: 100%;
+	padding: 1em 0;
+	text-decoration: none;
+	text-shadow: 2px 2px 4px black;
+	transition: all 0.2s ease;
+	width: 100%;
+}
+
+ul li a:hover{
+	background: rgba(183,35,16,0.5);
+}
+
+section{
+	display: inline-block;
+	vertical-align: top;
+	width: 80%;
+}
+
+section div{
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	width: 100%;
+}
+
+section div img{
+	border-radius: 0.5em;
+	height: 200px;
+	margin: 0.5em;
+	opacity: 0.7;
+	transition: opacity transform 0.5s ease;
+	width: 160px;
+}
+
+section div img:hover{
+	opacity: 1;
+	transform: scale(1.08);
+}
+
+p{
+	text-align: justify;
+}
+
+video{
+	border: 5px dotted #D74F39;
+	border-radius: 0.5em;
+	display: none;
+	position: relative;
+	width:70%;
+}
+
+video.animate {
+            animation-name: videomovement;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+        } 
+
+#sinopsis{
+	height: 0;
+	visibility: hidden;
+}
+
+@media (max-width: 460px){
+	html{
+		font-size: 14px;
+	}
+
+	nav{
+		height: auto;
+		width: 100%;
+	}
+
+	nav ul{
+		margin: 0 10%;
+	}
+
+	nav ul li{
+		display: inline-block;
+		vertical-align: top;
+		width: 30%;
+	}
+
+	video{
+		height: 100vh;
+		width: 100%; 
+	}
+
+	#contactForm input{
+		margin: 0.5em 0;
+		width: 100%;
+	}
+
+	#movies a img{
+		height: 300px;
+		margin: 0 15%;
+		width: 250px;
+	}
+}
+
+@media (max-width: 350px){
+	html{
+		font-size: 12px;
+	}
+
+	header{
+		width: 100%;
+	}
+
+	header h1{
+		font-size: 2em;
+	}
+
+	h3{
+		width: 100%;
+	}
+
+	nav{
+		height: auto;
+		width: 100%;
+	}
+
+	nav ul{
+		margin: 0 10%;
+	}
+
+	nav ul li{
+		display: inline-block;
+		height: 2em;
+		vertical-align: top;
+		width: 80%;
+	}
+
+	nav ul li a{
+		padding: 0.5em 0;
+	}
+
+	section{
+		width: 100%;
+	}
+
+	section ul{
+		margin:0 2%;
+		padding:0;
+		width: 96%;
+	}
+
+	video{
+		height: 100vh;
+		width: 100%; 
+	}
+
+	#contactForm input{
+		margin: 0.5em 0;
+		width: 100%;
+	}
+
+	#movies a img{
+		height: 300px;
+		margin: 0 15%;
+		width: 250px;
+	}
+}
+
+@keyframes videomovement {
+
+    0% {
+        left: -1000px;
+    }
+
+    33% {
+        left: -185px;
+    }
+
+    66% {
+        left: -10px;
+    }
+
+    100% {
+        left: auto;
+    }
+}
+
+
+

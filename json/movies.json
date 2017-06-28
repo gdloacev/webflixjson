@@ -1,0 +1,12 @@
+[
+	{"title":"Sin Limites", "sinopsis":"Sin Limites una pelicula bien padre", "category":"Accion", "image":"portada1.jpg"},
+	{"title":"Celda 211", "sinopsis":"Celda 211 una pelicula bien padre","category":"Accion", "image":"portada2.jpg"},
+	{"title":"Thor", "sinopsis":"Thor una pelicula bien padre","category":"Accion", "image":"portada3.jpg"},
+	{"title":"Insurgent", "sinopsis":"Insurgent una pelicula bien padre","category":"Accion", "image":"portada4.jpg"},
+	{"title":"Bourn: El Ultimatum", "sinopsis":"Bourn: El Ultimatum una pelicula bien padre","category":"Accion", "image":"portada5.jpg"},
+	{"title":"Wolverine", "sinopsis":"Wolverine una pelicula bien padre","category":"Accion", "image":"portada6.jpg"},
+	{"title":"Arrastrame al Infierno", "sinopsis":"Arrastrame al Infierno una pelicula de miedo","category":"Terror", "image":"portada7.jpg"},
+	{"title":"Grandes Heroes", "sinopsis":"Grandes Heroes una pelicula para niños","category":"Infantil", "image":"portada8.jpg"},
+	{"title":"Vengadores", "sinopsis":"Vengadores una pelicula donde sale Ironman","category":"Accion", "image":"portada9.jpg"},
+	{"title":"Malefica", "sinopsis":"Malefica una pelicula de Angelina Jolie","category":"Drama", "image":"portada10.jpg"}
+]

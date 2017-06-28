@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Webflix</title>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<header>
+		<h1>WEBFLIX</h1>
+		<h2>El entretenimiento en tus manos</h2>
+	</header>
+	<!--<audio src="sounds/aquarium-water.mp3" autobuffer autoloop loop autoplay></audio>-->
+	<nav>
+		<ul>
+			<li><a href="#">Todas</a></li>
+			<li><a href="#">Drama</a></li>
+			<li><a href="#">Accion</a></li>
+			<li><a href="#">Terror</a></li>
+			<li><a href="#">Infantil</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h3>Accion</h3>
+		<div id="movies">
+		</div>
+	</section>
+	<section>
+		<video poster="images/portada1.jpg" controls>
+		    <source src="videos/video.mp4" type='video/mp4' />
+		    <source src="videos/video.webm" type='video/webm' />
+		    <source src="videos/video.ogg" type='video/ogg' />
+		</video>
+		<ul>
+			<li><a href="" id="btnSinopsis">Ver Sinopsis</a></li>
+		</ul>
+		<section id="sinopsis">
+			<p>Seleccione alguna pelicula para ver su Sinopsis</p>
+		</section>
+	</section>
+
+	<section>
+		<form action="contacto.php" method="post" id="contactForm">
+			<fieldset>
+				<legend>Contacto</legend>
+				<input type="text" name="" value="" placeholder="Nombre" required="required">
+				<input type="email" name="" value="" placeholder="Email" required="required">
+				<input type="submit" name="" value="Enviar">
+			</fieldset>
+		</form>
+	</section>
+
+	<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+	<script src="js/index.js" type="text/javascript"></script>
+</body>
+</html>

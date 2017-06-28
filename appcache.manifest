@@ -1,0 +1,7 @@
+CACHE MANIFEST
+	
+CACHE:
+json/movies.json
+
+NETWORK:
+https://fonts.googleapis.com/css?family=Ubuntu
